@@ -11,3 +11,7 @@ li.remove("你好")##移除指定的值
 li.pop(1)##移除某位置的值
 print(li)
 print(li.index("a"))
+li=[1,2,3]
+li2=['a','s','d',li]
+li.append(li2)
+print(li2)
